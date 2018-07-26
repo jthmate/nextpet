@@ -1,22 +1,16 @@
 ﻿using System;
-namespace NextPetAdapter.Interfaces
+using NextPetInfrastructure.Interfaces;
+namespace NextPetInfrastructure.Interfaces
 {
-    public interface IFormEmployeeInterface
+    public interface IServiceEmployeeInterface
     {
-        string firstName { get; set; }
-        string lastName { get; set; }
-        DateTime birthDate { get; set; }
-        string city { get; set; }
-        string country { get; set; }
-    }
-
-    public interface IEmployeeInterface
-    {
-        int ID { get; }
-        string firstName { get; }
-        string lastName { get; }
-        DateTime birthDate { get; }
-        string city { get; }
-        string country { get; }
+        int ID { get; set; }
+        string FirstName { get; set; }
+        string LastName { get; set; }
+        string FullName { get; set; }
+        DateTime BirthDate { get; set; }
+        string City { get; set;}
+        string Country { get; set; }
+        // IServicePetInterface[] Pets { get; set; }
     }
 }

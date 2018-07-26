@@ -1,12 +1,11 @@
 ﻿using System;
 namespace NextPetAdapter.Interfaces
 {
-    public interface IEmployeeInterface
+    public interface IFormPetInterface
     {
-        string firstName { get; set; }
-        string lastName { get; set; }
+        string name { get; set; }
+        string type { get; set; }
         DateTime birthDate { get; set; }
-        string city { get; set; }
-        string country { get; set; }
+        int employeeId { get; set; }
     }
 }
