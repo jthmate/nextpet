@@ -1,4 +1,4 @@
-# nextpet
+# NextPet
 Manage the employee's pets
 
 ## Install
