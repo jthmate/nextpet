@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextPetAdapter", "NextPetWebApi\NextPetAdapter.csproj", "{C0A72393-4A84-4CB7-9662-82C2DF34B014}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextPetDomain", "NextPetDomain\NextPetDomain.csproj", "{EAA1DE71-B419-49BC-A3CA-84307CE1BA05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextPetInfrastructure", "NextPetInfrastructure\NextPetInfrastructure.csproj", "{43648A94-80DE-49F7-8A0D-D35369205CBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0A72393-4A84-4CB7-9662-82C2DF34B014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0A72393-4A84-4CB7-9662-82C2DF34B014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0A72393-4A84-4CB7-9662-82C2DF34B014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0A72393-4A84-4CB7-9662-82C2DF34B014}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAA1DE71-B419-49BC-A3CA-84307CE1BA05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAA1DE71-B419-49BC-A3CA-84307CE1BA05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAA1DE71-B419-49BC-A3CA-84307CE1BA05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAA1DE71-B419-49BC-A3CA-84307CE1BA05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43648A94-80DE-49F7-8A0D-D35369205CBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43648A94-80DE-49F7-8A0D-D35369205CBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43648A94-80DE-49F7-8A0D-D35369205CBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43648A94-80DE-49F7-8A0D-D35369205CBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
