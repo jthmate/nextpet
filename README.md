@@ -9,13 +9,11 @@ Manage the employee's pets
 3. Open 3 terminals and run every project.
 
     3.1
-
       $ cd NextPetDomain 
 
       $ dotnet run
 
     3.2
-
       $ cd NextPetInfrastructure 
 
       $ dotnet run
